@@ -1,0 +1,26 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.3.0",
+  "FriendlyName": "Xovium Dynamic Terrain",
+  "Description": "Streaming satellite imagery and terrain with exact collision and shared tile caching.",
+  "Category": "Simulation",
+  "CreatedBy": "Xovium Tech",
+  "CanContainContent": true,
+  "SupportedTargetPlatforms": [
+    "Linux"
+  ],
+  "Modules": [
+    {
+      "Name": "DynamicTerrain",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ProceduralMeshComponent",
+      "Enabled": true
+    }
+  ]
+}

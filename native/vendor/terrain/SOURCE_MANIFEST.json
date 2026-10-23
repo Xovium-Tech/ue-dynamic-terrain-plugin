@@ -1,0 +1,28 @@
+{
+  "base_commit": "28202c64196ffd7b50475e4df20ddf45d44b11a8",
+  "description": "Local optimized source snapshot; includes uncommitted workspace changes.",
+  "schema": 1,
+  "sha256": {
+    "LICENSE": "92159adbb2c63ba9deeb1a7b0e687efef30c37ec9bb602cf51aead1bd4b4cda9",
+    "include/dynamic_terrain/core/CollisionTerrain.hh": "ecedeab54102e665d6682818c26064b32a30a32e7ed32d2798b17d77adb1c4ef",
+    "include/dynamic_terrain/core/DownloadCache.hh": "458c2ccfd1079d4182c6ec264ae89919f5ae7100abc3dde396576c8c85e0c742",
+    "include/dynamic_terrain/core/GeographicTransform.hh": "5c165631753b1e63768f7b7852fb18dd3c46a1d0c6331bcab4a6cda9164569c1",
+    "include/dynamic_terrain/core/TerrainBuilder.hh": "fd524972fedfc95c0258a51d09466133a237a6718c6c6f71115d3c0e96d370a0",
+    "include/dynamic_terrain/core/TerrainConfig.hh": "8b9dc709f331279313da5566baa1d0a99b8d2db50a9378ecac53b08a0c676823",
+    "include/dynamic_terrain/core/TerrainCoverage.hh": "3d42db5230f57e752ddbd1bbe97c55f01ff75c7a6409bce8e82be5c8054065b8",
+    "include/dynamic_terrain/core/TerrainData.hh": "1275939b207a50490b33925c39ceaa3ce2ac0074a24217d163272c7204e0b41b",
+    "include/dynamic_terrain/core/TerrainRenderSink.hh": "dd240b46ec3440a9af080c991a3bb3b7ba088de6ed49677c7178e0d06e5a26a8",
+    "include/dynamic_terrain/core/TerrainRuntime.hh": "091127a940a5cda0675b13115eca4e1027920e9d5555e355bd6c86f4c500c492",
+    "include/dynamic_terrain/core/TerrainTypes.hh": "09eeff8b15750c250fc7021181a93cc331aa12cf4038d0843f8676c2f63e5c8c",
+    "include/dynamic_terrain/core/TileStore.hh": "b87664a625e95bc02bb4063330983a281885497ae200ef34c44552fe79d052d3",
+    "src/core/CollisionTerrain.cc": "521079f7421681434acdeddcc6ca21ceb5c7ce6200f2d02247f56f42641e7493",
+    "src/core/DownloadCache.cc": "056a6ddcc3faf3fc3de55a1f9087a584ec1546fd3f6006c45e6015a3b1200f8b",
+    "src/core/DownloadRetry.hh": "2a1af014f852524d2311c4bb4a37955571df9ffded793a2ef392f05c22e1fc6a",
+    "src/core/JpegValidation.hh": "595ca99210ef1cf2978d7cdb2a0097d95a66cba664e2d045979a29fca3321ab1",
+    "src/core/TerrainBuilder.cc": "efd1fa7a31530acef3ac5d220606ec3ffd50f2d8825ccf3e47bf1b2e1ff2465c",
+    "src/core/TerrainRuntime.cc": "64d9fd39a637cd97a9bf7322c09729b98d25d0d33cb4130bad58b3aefe3d919c",
+    "src/core/TerrainTypes.cc": "d867e7285e0dd5505f2342ad4e2ef64c35dfe1845dde85733817b67813b16a64",
+    "src/core/TileStore.cc": "abd48b8161d49481f327d5b9dcc72336d09237700191b48773eb3f08ef81c8f4"
+  },
+  "source": "https://github.com/Xovium-Tech/gz-dynamic-terrain-plugin"
+}

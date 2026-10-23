@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "repository": "xovium-installer",
+  "baseline_revision": "44ba6d0421b29388820a0d1d927d942b89ec319e",
+  "baseline_files_sha256": {
+    "Unreal/Source/PX4Unreal/Public/PX4Terrain.h": "4c763d821984ec636f3c26b82b5517ae74ef3077a33fcea32368e3c97c561d18",
+    "Unreal/Source/PX4Unreal/Private/PX4Terrain.cpp": "a9a8f94f04399dee6be5c046d83b7db1d5dd15c2a5e25255eea0b7183434cd40",
+    "native/terrain/terrain.cpp": "adc4af006e2442b69e2f375aa9e26447f1607921823e1f2b268fa256c8bea584",
+    "native/terrain/terrain_image.cpp": "51aa52df973d42dd6ebf17c62953620170f5ee5ea2ec238f6e70b78709fca3e3",
+    "native/include/ue_px4/media.h": "ead1ff35ef9287397e298030268aef3ad439c63c69666295984dec7514fce7b4"
+  },
+  "local_changes": true,
+  "changes": "Standalone actor/module, exact worker mip preparation, reusable textures/materials, active/staging aggregate collision, versioned owned-frame C ABI, coalesced refinement and strict private JPEG decoder."
+}

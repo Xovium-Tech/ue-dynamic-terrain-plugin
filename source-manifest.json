@@ -1,0 +1,8 @@
+{
+  "core": "native/vendor/terrain",
+  "local_changes": true,
+  "manifest": "native/vendor/terrain/SOURCE_MANIFEST.json",
+  "revision": "28202c64196ffd7b50475e4df20ddf45d44b11a8",
+  "schema": 1,
+  "upstream": "https://github.com/Xovium-Tech/gz-dynamic-terrain-plugin"
+}

@@ -1,0 +1,26 @@
+name: Build and test
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install native dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake g++ pkg-config python3 unzip libcurl4-openssl-dev libopencv-dev libpng-dev libjpeg-dev
+      - name: Build and test native runtime
+        run: JOBS=2 bash scripts/build_native.sh
+      - name: Build the extracted source release
+        run: |
+          python3 tools/release_source.py --output "$RUNNER_TEMP/releases"
+          unzip -q "$RUNNER_TEMP/releases/ue-dynamic-terrain-plugin-v0.3.0.zip" -d "$RUNNER_TEMP/extracted"
+          JOBS=2 bash "$RUNNER_TEMP/extracted/ue-dynamic-terrain-plugin-v0.3.0/scripts/build_native.sh"
+          test -f "$RUNNER_TEMP/extracted/ue-dynamic-terrain-plugin-v0.3.0/Content/M_Terrain.uasset"

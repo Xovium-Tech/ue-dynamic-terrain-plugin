@@ -1,0 +1,12 @@
+build/
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+__pycache__/
+*.tar.gz
+BINARY_MANIFEST.json
+examples/TerrainDemo/Plugins/
+examples/TerrainDemo/Binaries/
+examples/TerrainDemo/Intermediate/
+examples/TerrainDemo/Saved/
